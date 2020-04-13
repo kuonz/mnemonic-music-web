@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mnemonic_music_web/pages/index.dart';
 import 'package:mnemonic_music_web/pages/init.dart';
 import 'package:mnemonic_music_web/pages/login.dart';
 import 'package:mnemonic_music_web/provider/index/sheet_list_provider.dart';
@@ -52,6 +53,6 @@ class _Main extends StatelessWidget {
     Network.init();
 
     // return InitPage();
-    return Login();
+    return IndexPage();
   }
 }
